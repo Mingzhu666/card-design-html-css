@@ -1,0 +1,353 @@
+body {
+  background-color: rgb(243, 238, 233);
+  font-family: Sans-serif;
+}
+
+.veniceislands {
+  margin-bottom: 10px;
+}
+
+.veniceislands_header {
+  background-image: url("../image/venice_islands.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 360px;
+  height: 180px;
+  border-radius: 10px 10px 0px 0px;
+  background-position: center;
+  display: border-box;
+  margin: 0;
+  box-shadow: 0px 5px 10px grey;
+}
+
+.veniceislands_background {
+  border: none;
+  margin: 0px;
+}
+
+.veniceislands_content {
+  width: 360px;
+  height: 260px;
+  background-color: white;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 5px 10px grey;
+}
+
+.veniceislands_header_italy {
+  position: relative;
+  font-size: 14px;
+  top: 10px;
+  left: 280px;
+  border-radius: 3px;
+  padding-top: 3px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  right: 100px;
+  background-color: red;
+  width: 100px;
+  line-height: 5;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.veniceislands_title_venice {
+  position: relative;
+  font-size: 30px;
+  left: 30px;
+  top: 20px;
+}
+
+.veniceislands_content_details {
+  position: relative;
+  word-wrap: break-word;
+  top: 23px;
+  left: 30px;
+  width: 300px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  background-clip: text;
+  background: -webkit-linear-gradient(rgb(121, 117, 117), #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.veniceislands_button_viewmore {
+  position: relative;
+  border-radius: 25px;
+  background-position: center;
+  background-color: rgb(40, 107, 184);
+  font-size: 1em;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 130px;
+  height: 45px;
+  top: -60px;
+  left: 100px;
+}
+
+.veniceislands_button_viewmore:hover {
+  background-color: white;
+  color: blue;
+  border: blue;
+  box-shadow: 0px 5px 10px rgb(40, 107, 184);
+}
+
+.buranodoors {
+  margin-bottom: 10px;
+}
+
+.buranodoors_content {
+  background-image: url("../image/burano_doors.png");
+  background-repeat: no-repeat;
+  background-size: 130%;
+  width: 360px;
+  height: 450px;
+  margin: 0px;
+  border-radius: 10px 10px 10px 10px;
+  background-position: center;
+  box-shadow: 0px 5px 10px grey;
+  border-bottom: 5px solid red;
+}
+
+.buranodoors_content_burano {
+  position: relative;
+  font-size: 25px;
+  top: 340px;
+  left: -7px;
+  color: white;
+  font-family: Sans-serif;
+  letter-spacing: 1px;
+}
+
+.buranodoors_content_location {
+  position: relative;
+  font-size: 15px;
+  top: 330px;
+  left: 28px;
+  color: white;
+}
+
+.buranodoors_content_popularity {
+  position: relative;
+  font-size: 15px;
+  top: 340px;
+  left: 43px;
+  background: red;
+  color: white;
+  border-radius: 28px;
+  height: 20px;
+  padding-top: 2px;
+  padding-right: 15px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+}
+
+.buranodoors_heart {
+  position: relative;
+  top: 39px;
+  left: 300px;
+  cursor: pointer;
+}
+
+.buranodoors_heart--red:hover {
+  filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
+}
+
+.florenceitaly {
+  position: relative;
+  margin-bottom: 10px;
+  overflow: hidden;
+  width: 720px;
+}
+
+.florenceitaly_content {
+  background-image: url("../image/florence_italy.png");
+  background-repeat: no-repeat;
+  background-size: 130%;
+  width: 720px;
+  height: 480px;
+  margin: 0px;
+  border-radius: 10px 10px 10px 10px;
+  background-position: center;
+  box-shadow: 0px 5px 10px grey;
+}
+
+.florenceitaly_backgroundtext {
+  position: absolute;
+  font-size: 20rem;
+  top: 170px;
+  left: -190px;
+  opacity: 10%;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+.florenceitaly_button_viewtrip {
+  position: relative;
+  border-radius: 25px;
+  background-position: center;
+  background-color: rgb(40, 107, 184);
+  font-size: 1em;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 130px;
+  height: 45px;
+  top: 165px;
+  left: 550px;
+  z-index: 3;
+}
+
+.florenceitaly_button_viewtrip:hover {
+  background-color: white;
+  color: blue;
+}
+
+.florenceitaly_text_wrapper {
+  position: relative;
+  border-left: 5px solid rgb(15, 228, 199);
+  top: 220px;
+  z-index: 3;
+}
+
+.florenceitaly_content_florence {
+  position: relative;
+  font-size: 40px;
+  top: 1px;
+  left: 55px;
+  color: white;
+  font-family: Sans-serif;
+  letter-spacing: 1px;
+}
+
+.florenceitaly_header_italy {
+  position: relative;
+  font-size: 14px;
+  top: 30px;
+  left: 610px;
+  border-radius: 3px;
+  padding-top: 3px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  right: 100px;
+  background-color: white;
+  width: 100px;
+  line-height: 5;
+  color: Black;
+  letter-spacing: 1px;
+}
+
+.florenceitaly_content_date {
+  position: relative;
+  font-size: 20px;
+  top: 5px;
+  left: 58px;
+  color: rgb(32, 177, 221);
+}
+
+.thebluehouse {
+  margin-bottom: 10px;
+}
+
+.thebluehouse_background {
+  background-image: url("../image/the_blue_hourse.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 360px;
+  height: 450px;
+  margin: 0px;
+  border-radius: 10px 10px 10px 10px;
+  background-position: center;
+  box-shadow: 0px 5px 10px grey;
+}
+
+.thebluehouse_heart {
+  position: relative;
+  top: -285px;
+  left: 275px;
+  cursor: pointer;
+}
+
+.thebluehouse_heart--red:hover {
+  filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
+}
+
+.thebluehouse_content {
+  position: relative;
+  width: 290px;
+  height: 190px;
+  top: -140px;
+  left: 30px;
+  border-radius: 10px 10px 10px 10px;
+  background-position: center;
+  display: border-box;
+  margin: 0;
+  background-color: white;
+}
+
+.thebluehouse_content_stars {
+  position: relative;
+  left: 20px;
+  top: -5px;
+}
+
+/* .thebluehouse_content_star {
+  left: 20px;
+} */
+
+/* .thebluehouse_content_star {
+  filter: saturate(500%) contrast(800%) brightness(500%) invert(80%) sepia(50%)
+    hue-rotate(120deg);
+  position: relative;
+  display: inline;
+  height: 20px;
+} */
+
+.thebluehouse_content_review {
+  position: relative;
+  left: 150px;
+  top: -35px;
+  color: gray;
+}
+
+.thebluehouse_content_title {
+  position: relative;
+  font-size: 26px;
+  left: -70px;
+  top: 10px;
+}
+
+.thebluehouse_content_location {
+  position: relative;
+  font-size: 17px;
+  left: 20px;
+  top: 10px;
+  color: grey;
+}
+
+.thebluehouse_content_price {
+  position: relative;
+  font-size: 19px;
+  left: -140px;
+  top: 50px;
+}
+
+.thebluehouse_forward_button {
+  background-color: blue;
+  border: 0;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  margin: 15px;
+  padding: 5px;
+  left: 210px;
+  top: 5px;
+}
+
+.thebluehouse_forward_arrow {
+  filter: brightness(0) invert(1);
+}
